@@ -14,6 +14,6 @@ RUN chmod 755 /app -R
 ENV ALLOW_OVERRIDE **False**
 WORKDIR /app
 RUN yarn install
-RUN yarn start
+CMD yarn start
 
 EXPOSE 3000
